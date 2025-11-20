@@ -46,40 +46,12 @@ section#redes_sociais >a >img{
     margin: 10px;
     border-radius: 200px;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.404);
+    box-sizing: border-box;
 
 }
-section>a>img#home{
-    position: relative;
-    top: 50px;
-    left: 850px;
+section#redes_sociais{
+    text-align: right;
 }
-section>a>img#YT{
-    position: relative;
-    top: 120px;
-    left: 775px;
-
-}
-section>a>img#git{
-    position: relative;
-    top: 190px;
-    left: 702px;
-
-}
-section>a>img#insta{
-    position: relative;
-    top: 260px;
-    left: 629px;
-
-}
-section>a>img#tu{
-    position: relative;
-    top: 330px;
-    left: 554px;
-
-}
-section>a>img#face{
-    position: relative;
-    top: 398px;
-    left: 480px;
-
+section#redes_sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.637);
 }
